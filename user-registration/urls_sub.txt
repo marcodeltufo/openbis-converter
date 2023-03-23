@@ -1,0 +1,3 @@
+https://openbis.ch/index.php/docs/admin-documentation/user-registration/openbis-roles
+https://openbis.ch/index.php/docs/admin-documentation/user-registration/user-profile
+https://openbis.ch/index.php/docs/admin-documentation/user-registration/assign-home-space-to-a-user

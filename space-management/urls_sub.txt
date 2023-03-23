@@ -1,0 +1,4 @@
+https://openbis.ch/index.php/docs/admin-documentation/space-management/create-new-inventory-spaces
+https://openbis.ch/index.php/docs/admin-documentation/space-management/create-new-eln-spaces
+https://openbis.ch/index.php/docs/admin-documentation/space-management/delete-spaces
+https://openbis.ch/index.php/docs/admin-documentation/space-management/move-space-between-lab-notebook-and-inventory

@@ -1,0 +1,2 @@
+https://openbis.ch/index.php/docs/admin-documentation/multi-group-set-up/general-eln-settings
+https://openbis.ch/index.php/docs/admin-documentation/multi-group-set-up/group-eln-settings

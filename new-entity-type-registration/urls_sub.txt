@@ -1,0 +1,5 @@
+https://openbis.ch/index.php/docs/admin-documentation/new-entity-type-registration/enable-rich-text-editor-or-spreadsheet-widgets
+https://openbis.ch/index.php/docs/admin-documentation/new-entity-type-registration/enable-objects-in-dropdowns
+https://openbis.ch/index.php/docs/admin-documentation/new-entity-type-registration/register-masterdata-via-excel
+https://openbis.ch/index.php/docs/admin-documentation/new-entity-type-registration/properties-overview
+https://openbis.ch/index.php/docs/admin-documentation/new-entity-type-registration/internal-properties-and-vocabularies

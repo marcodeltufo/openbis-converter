@@ -1,0 +1,5 @@
+https://openbis.ch/index.php/docs/admin-documentation/customise-inventory-of-materials-and-samples/create-collections-of-materials
+https://openbis.ch/index.php/docs/admin-documentation/customise-inventory-of-materials-and-samples/delete-collections
+https://openbis.ch/index.php/docs/admin-documentation/customise-inventory-of-materials-and-samples/enable-storage-widget-on-sample-forms
+https://openbis.ch/index.php/docs/admin-documentation/customise-inventory-of-materials-and-samples/configure-lab-storage
+https://openbis.ch/index.php/docs/admin-documentation/customise-inventory-of-materials-and-samples/add-metadata-to-storage-positions
