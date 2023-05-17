@@ -1,10 +1,6 @@
 #!/bin/bash
 
-rm /home/marco/pandoc/*.md
-rmdir /home/marco/openbis-test/docs/*
-rm /home/marco/openbis-test/docs/*.md
-
-INDEXFILE=/home/marco/openbis-test/docs/index.rst
+INDEXFILE=/home/marco/openbis-test-3/docs/user-documentation/general-users/index.rst
 LASTINDEXLINE=$(($(wc -l < ${INDEXFILE})-$(grep -n ":maxdepth:" $INDEXFILE | head -1 | cut -d":" -f1)))
 echo $LASTINDEXLINE
 LASTINDEXLINE=$((LASTINDEXLINE-1))
@@ -59,13 +55,22 @@ for d in */ ; do
     sh html_to_md_sub.sh
 done
 
-cp /home/marco/pandoc/* /home/marco/openbis-test/docs/
-rm /home/marco/openbis-test/docs/*.txt
-rm /home/marco/openbis-test/docs/*.sh
+cd $CARTELLA
+for page in *.md; do
+    echo "processo: $page"
+    i=1
+    while IFS= read -r line; do
+        if [[ $line == *".png"* ]]; then
+            url=$(echo "$line" | grep -Eo 'https://[^ >]+' |head -1)
+            wget -P ./img "$url"
+            newline=".. image:: img/${url##*/}"
+            sed -i "${i}s|^.*$|${newline}|" $page
+        fi
+        ((i++))
+    done < $page
+done
 
-#sh /home/marco/openbis-test/pulizia_push.sh
-
-cd /home/marco/openbis-test
-git add docs/
-git commit -am "commit"
-git push
+cd $CARTELLA
+for i in *.md; do
+    mv "$i" "${i%.md}.rst"
+done
