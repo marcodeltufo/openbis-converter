@@ -26,7 +26,8 @@ do
     do 
        IMGLINE=$(grep -n "<img" $FILENAME | head -1 | cut -d":" -f1)
        IMGURL=$(sed "${IMGLINE}q;d" $FILENAME | awk -F '"' '{print $2}')
-       sed -i "${IMGLINE}s|^.*$|.. image:: ${IMGURL}|" $FILENAME
+       #sed -i "${IMGLINE}s|^.*$|.. image:: ${IMGURL}|" $FILENAME
+       sed -i "${IMGLINE}s|^.*$|![image info](${IMGURL})|" $FILENAME
     done
     
     while [ $(grep -c "<figure>" ${FILENAME}) -ne 0 ]
@@ -52,9 +53,9 @@ done < urls_sub.txt
 
 sed -i "1 i\====" ./$MAINFILENAME
 title=${PWD##*/}
-echo "TITOLO 1: $title"
+#echo "TITOLO 1: $title"
 title=$(echo $title | sed "s/-/ /g" | sed -e "s/\b\(.\)/\u\1/g")
-echo "TITOLO 2: $title"
+#echo "TITOLO 2: $title"
 #title=$(for i in "$title"; do B=`echo -n "${i:0:1}" | tr "[:lower:]" "[:upper:]"`; echo -n "${B}${i:1}"; done)
 #echo "TITOLO 3: $title"
 sed -i "1 i\\${title}" ./$MAINFILENAME

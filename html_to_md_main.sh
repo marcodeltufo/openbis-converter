@@ -1,6 +1,6 @@
 #!/bin/bash
 
-INDEXFILE=/home/marco/openbis-test-3/docs/user-documentation/general-users/index.rst
+INDEXFILE=/home/marco/openbis-converter/index.rst
 LASTINDEXLINE=$(($(wc -l < ${INDEXFILE})-$(grep -n ":maxdepth:" $INDEXFILE | head -1 | cut -d":" -f1)))
 echo $LASTINDEXLINE
 LASTINDEXLINE=$((LASTINDEXLINE-1))
@@ -28,7 +28,7 @@ do
     do 
 	    IMGLINE=$(grep -n "<img" $FILENAME | head -1 | cut -d":" -f1)
 	    IMGURL=$(sed "${IMGLINE}q;d" $FILENAME | awk -F '"' '{print $2}')
-	    sed -i "${IMGLINE}s|^.*$|.. image:: ${IMGURL}|" $FILENAME
+	    sed -i "${IMGLINE}s|^.*$|![image info](${IMGURL})|" $FILENAME
     done
     
     while [ $(grep -c "<figure>" ${FILENAME}) -ne 0 ]
@@ -61,16 +61,16 @@ for page in *.md; do
     i=1
     while IFS= read -r line; do
         if [[ $line == *".png"* ]]; then
-            url=$(echo "$line" | grep -Eo 'https://[^ >]+' |head -1)
+            url=$(echo "$line" | grep -Eo 'https://[^ >]+' |head -1 | sed 's/)//g')
             wget -P ./img "$url"
-            newline=".. image:: img/${url##*/}"
+            newline="![image info](img/${url##*/})"
             sed -i "${i}s|^.*$|${newline}|" $page
         fi
         ((i++))
     done < $page
 done
 
-cd $CARTELLA
-for i in *.md; do
-    mv "$i" "${i%.md}.rst"
-done
+#cd $CARTELLA
+#for i in *.md; do
+#    mv "$i" "${i%.md}.rst"
+#done
