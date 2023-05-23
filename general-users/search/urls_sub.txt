@@ -1,0 +1,3 @@
+https://openbis.ch/index.php/docs/user-documentation/search/advanced-search
+https://openbis.ch/index.php/docs/user-documentation/search/search
+https://openbis.ch/index.php/docs/user-documentation/search/save-and-reuse-searches

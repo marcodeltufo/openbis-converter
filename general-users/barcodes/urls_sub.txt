@@ -1,0 +1,2 @@
+https://openbis.ch/index.php/docs/user-documentation/barcodes/barcodes
+https://openbis.ch/index.php/docs/user-documentation/barcodes/printer-and-barcode-scanner-requirements

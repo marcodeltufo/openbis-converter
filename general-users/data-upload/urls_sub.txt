@@ -1,0 +1,2 @@
+https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-web-ui
+https://openbis.ch/index.php/docs/user-documentation/data-upload/data-upload-via-dropbox

@@ -1,0 +1,10 @@
+https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/visualise-relationships
+https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/tables
+https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/browse-entries-by-type
+https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/trashcan
+https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/vocabulary-browser
+https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/freeze-entities
+https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/navigation-menu
+https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/custom-imports
+https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/entity-history
+https://openbis.ch/index.php/docs/user-documentation/additional-functionalities/spreadsheet

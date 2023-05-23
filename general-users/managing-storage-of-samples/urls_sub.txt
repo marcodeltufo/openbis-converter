@@ -1,0 +1,4 @@
+https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/allocate-storage-to-samples
+https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/batch-update-storage-positions
+https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/delete-storage-positions
+https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples/overview-of-lab-storages

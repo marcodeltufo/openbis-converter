@@ -1,0 +1,12 @@
+https://openbis.ch/index.php/docs/user-documentation/general-overview
+https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods
+https://openbis.ch/index.php/docs/user-documentation/managing-storage-of-samples
+https://openbis.ch/index.php/docs/user-documentation/barcodes
+https://openbis.ch/index.php/docs/user-documentation/lab-notebook
+https://openbis.ch/index.php/docs/user-documentation/data-upload
+https://openbis.ch/index.php/docs/user-documentation/data-export
+https://openbis.ch/index.php/docs/user-documentation/data-archiving
+https://openbis.ch/index.php/docs/user-documentation/search
+https://openbis.ch/index.php/docs/user-documentation/additional-functionalities
+https://openbis.ch/index.php/docs/user-documentation/managing-lab-stocks-and-orders-2
+https://openbis.ch/index.php/docs/user-documentation/tools-for-analysis-of-data-stored-in-openbis

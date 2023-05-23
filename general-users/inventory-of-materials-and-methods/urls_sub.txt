@@ -1,0 +1,9 @@
+https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/customise-collection-view
+https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-single-entries-in-a-collection
+https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-a-collection
+https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-register-entries-in-several-collections
+https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-a-collection
+https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/batch-update-entries-in-several-collections
+https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/copy-entries
+https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/move-entries-to-a-different-collection
+https://openbis.ch/index.php/docs/user-documentation/inventory-of-materials-and-methods/register-protocols-in-the-methods-inventory
