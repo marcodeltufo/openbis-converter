@@ -1,0 +1,4 @@
+https://unlimited.ethz.ch/display/openBISDoc2010/Properties+Handled+By+Scripts
+https://unlimited.ethz.ch/display/openBISDoc2010/Dynamic+Properties
+https://unlimited.ethz.ch/display/openBISDoc2010/Entity+validation+scripts?src=contextnavpagetreemode
+https://unlimited.ethz.ch/display/openBISDoc2010/Managed+Properties?src=contextnavpagetreemode
